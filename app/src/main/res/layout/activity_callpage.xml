@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".callpage"
+    android:background="@drawable/d"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="P h o n e"
+        android:layout_marginTop="30dp"
+        android:textColor="#B07DEC"
+        android:textSize="50sp"
+        android:layout_gravity="center"/>
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#B07DEC">
+    </View>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Enter Phone Number"
+        android:layout_marginTop="330dp"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:id="@+id/editPhone"/>
+
+
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#B07DEC">
+    </View>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C A L L"
+        android:textSize="20sp"
+        android:contextClickable="true"
+        android:gravity="center"
+        android:onClick="btnCall" />
+
+
+
+
+
+</LinearLayout>

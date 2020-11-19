@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Telephony</string>
+    <string name="fiora">Fiora</string>
+    <string name="fioranum">09999999999</string>
+    <string name="shyvanna">Shyvanna</string>
+    <string name="shynum">09888888888</string>
+    <string name="yasuo">Yasuo</string>
+    <string name="yasnum">09777777777</string>
+    <string name="fizz">Fizz</string>
+    <string name="fizznum">09666666666</string>
+    <string name="trynda">Tryndamere</string>
+    <string name="tryndanum">09555555555</string>
+</resources>

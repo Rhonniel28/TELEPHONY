@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/f"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacts"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#6FB6EF"
+        android:textSize="50dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:orientation="horizontal">
+
+
+    <ImageButton
+        android:onClick="msgbtn"
+        android:layout_marginTop="8dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/message"
+        android:layout_marginRight="10dp"/>
+
+    <ImageButton
+        android:onClick="callbtn"
+        android:layout_marginTop="8dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/call"
+        android:layout_marginRight="9dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/papname"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginTop="5dp"
+            android:text="@string/fiora"/>
+
+        <TextView
+            android:id="@+id/papnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#FFFEFE"
+            android:text="@string/fioranum"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#6FB6EF">
+
+</View>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:onClick="msgbtn2"
+            android:layout_marginTop="8dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/message"
+            android:layout_marginRight="15dp" />
+
+
+        <ImageButton
+            android:onClick="callbtn2"
+            android:layout_marginTop="8dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/call"
+            android:layout_marginRight="9dp"/>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/mamname"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginTop="5dp"
+            android:text="@string/shyvanna"/>
+
+
+
+        <TextView
+            android:id="@+id/mamnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#FFFEFE"
+            android:text="@string/shynum"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#6FB6EF">
+
+    </View>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:onClick="msgbtn3"
+            android:layout_marginTop="8dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/message"
+            android:layout_marginRight="15dp"/>
+
+        <ImageButton
+            android:onClick="callbtn3"
+            android:layout_marginTop="8dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/call"
+            android:layout_marginRight="9dp"/>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/kuyname"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginTop="5dp"
+            android:text="@string/yasuo"/>
+
+        <TextView
+            android:id="@+id/kuynum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#FFFEFE"
+            android:text="@string/yasnum"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#6FB6EF">
+
+    </View>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:onClick="msgbtn3"
+            android:layout_marginTop="8dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/message"
+            />
+
+        <ImageButton
+            android:onClick="callbtn3"
+            android:layout_marginTop="8dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/call"
+            android:layout_marginRight="9dp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/atename"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginTop="5dp"
+            android:text="@string/fizz"/>
+
+            <TextView
+                android:id="@+id/atenum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#FFFEFE"
+                android:text="@string/fizznum"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#6FB6EF">
+
+    </View>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:onClick="msgbtn5"
+            android:layout_marginTop="8dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/message"
+            android:layout_marginRight="15dp"/>
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="5dp"
+            android:onClick="callbtn5"
+            android:src="@drawable/call"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/bunname"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginTop="5dp"
+            android:text="@string/trynda"/>
+
+        <TextView
+            android:id="@+id/bunnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#FFFEFE"
+            android:text="@string/tryndanum"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#6FB6EF">
+
+    </View>
+
+    </LinearLayout>
